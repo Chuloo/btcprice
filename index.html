@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+            crossorigin="anonymous">
+        <script src="index.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header text-center">The Bitcoin Price Checker</h1><br>
+            <p>We bring you the bitcoin price viewer! </p>
+            <p>It updates in realtime, to change the currency, please select a new currency from the list below and click "Show
+                Price"!</p>
+            <select name="currency-list" id="currency-list"></select>
+            <div class="well">
+                <button id="button" class="btn-primary btn-block">Show Price</button>
+                <h3 title="Bitcoin Price" id="price"></h3>
+                <h5 title="time" id="time"></h5>
+            </div>
+            <p id="announcement">*More features coming soon!*</p>
+        </div>
+        <!--<script src="index.js"></script>-->
+    </body>
+</html>
